@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:weather_app/screens/home_screen/view/home_screen.dart';
 
 void main() {
@@ -10,8 +11,14 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Home(),
+    return ScreenUtilInit(
+      designSize: const Size(390, 844),
+      builder: (context, child) {
+        return MaterialApp(
+          debugShowCheckedModeBanner: false,
+          home: Home(),
+        );
+      },
     );
   }
 }

@@ -3,6 +3,12 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import 'colors.dart';
 
+TextStyle temperaturStyle = TextStyle(
+    fontSize: 70.sp,
+    fontWeight: FontWeight.w500,
+    color: CustomColors.textColor,
+    fontFamily: "Mulish");
+
 TextStyle heading1Style = TextStyle(
     fontSize: 32.sp,
     fontWeight: FontWeight.w700,
@@ -33,22 +39,10 @@ TextStyle subheading2Style = TextStyle(
     color: CustomColors.textColor,
     fontFamily: "Mulish");
 
-TextStyle subheading2Style50 = TextStyle(
-    fontSize: 16.sp,
-    fontWeight: FontWeight.w600,
-    color: CustomColors.textColor50,
-    fontFamily: "Mulish");
-
 TextStyle body1Style = TextStyle(
     fontSize: 14.sp,
     fontWeight: FontWeight.w600,
     color: CustomColors.textColor,
-    fontFamily: "Mulish");
-
-TextStyle body1Style50 = TextStyle(
-    fontSize: 14.sp,
-    fontWeight: FontWeight.w600,
-    color: CustomColors.textColor50,
     fontFamily: "Mulish");
 
 TextStyle body2Style = TextStyle(
@@ -58,36 +52,16 @@ TextStyle body2Style = TextStyle(
   fontFamily: "Lato",
 );
 
-TextStyle body2Style50 = TextStyle(
-  fontSize: 16.sp,
-  fontWeight: FontWeight.w400,
-  color: CustomColors.textColor50,
-  fontFamily: "Lato",
-);
-
 TextStyle metadata1Style = TextStyle(
     fontSize: 12.sp,
     fontWeight: FontWeight.w400,
     color: CustomColors.textColor,
     fontFamily: "Mulish");
 
-TextStyle metadata1Style50 = TextStyle(
-    fontSize: 12.sp,
-    fontWeight: FontWeight.w400,
-    color: CustomColors.textColor50,
-    fontFamily: "Mulish");
-
 TextStyle metadata2Style = TextStyle(
   fontSize: 11.sp,
   fontWeight: FontWeight.w400,
   color: CustomColors.textColor,
-  fontFamily: "Mulish",
-);
-
-TextStyle metadata2Style50 = TextStyle(
-  fontSize: 11.sp,
-  fontWeight: FontWeight.w400,
-  color: CustomColors.textColor50,
   fontFamily: "Mulish",
 );
 
